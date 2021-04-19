@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Damon Wark C0785895-->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/contact.css">
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/contact_us.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/additional-methods.min.js"></script>
+	
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="js/jquery-ui.css">
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({ minDate: -50, maxDate: "+0M +0D" });
+ } );
+  </script>
+	
+	<script src="js/nav/clarity.js"></script>
+	<link rel="stylesheet" href="js/nav/nav.css">
+	
+    <title> Contact </title>
+    <meta charset="utf-8">
+</head>
+<header> 
+	<a href="index.html"><img src="images/Harry.jpg" alt="Harry The Hairdryer" width="150" height="150"></a>
+	<h1> Harry's Hair Dryers</h1>
+</header>
+<nav>
+	<button class="menu-btn">
+		<img src="menu.svg">
+	</button>
+	<ul class="nav">	
+		<li><a href="index.html"> Home </a> &nbsp; &nbsp;</li>
+		<li><a href="about.html"> About </a> &nbsp; &nbsp;</li>
+		<li><a href="team.html"> Our Team </a> &nbsp; &nbsp;</li>
+		<li><a href="specials.html"> Specials</a> &nbsp; &nbsp;</li>
+		<li><a href="search.html"> Search</a> &nbsp; &nbsp;</li>
+		<li><a href="training.html"> Training</a> &nbsp; &nbsp;</li>
+		<li><a href="contact.html"> Contact Us</a> &nbsp; &nbsp;</li>
+	</ul>
+</nav>
+<body>
+
+	<main>
+		<form action="response.html" method="get" name="contact_us_form" id="contact_us_form">
+			<label for="fname"> First Name: </label>
+			<input type="text" id="fname" name="fname" placeholder="John">
+			<br><br>
+			<label for="lname"> Last Name: </label>
+			<input type="text" id="lname" name="lname" placeholder="Doe">
+			<br>
+			<p> Date: <input type="text" name="date" id="datepicker" placeholder="YYYY/MM/DD"></p>
+			
+			<label for="email">Email:</label>
+        	<input type="text" name="email" id="email" placeholder="johndoe@gamil.com">
+			<br><br>
+			<label for="phone"> Phone: </label>
+			<input type="text" name="phone" id="phone" placeholder="999-999-9999">
+			<br><br>
+			<label for="reason">Choose a Reason for submiting this form:</label>
+			<select id="reason" name="Reason">
+				<option value="Review">Review</option>
+				<option value="Complaint">Complaint</option>
+				<option value="Question">Questions</option>
+				<option value="Other">Other</option>
+			</select>
+			<br><br>
+			<textarea name="message" rows="10" cols="30" placeholder="Type here:"></textarea>
+			<br><br>			
+			<input type="submit" id="submit" value="Submit Request">
+
+			
+		</form>
+		
+		
+		
+		
+	</main>
+	<footer>
+		&copy; Copyright 2099. All Rights Reserved.<br>
+		<p>Request information:<br>
+		Damon Wark &nbsp;@ &nbsp; <a href="mailto:info@HarrysHairDryers.net">Request Infomation</a>
+	</footer>
+		
+</body>
+</html>

@@ -1,0 +1,92 @@
+{"teammembers":[
+	{
+		"name":"Mike Tyler",
+		"title":"CEO",
+		"department":"Managment",
+		"bio":"Mike started the company in his and his wifes garage. He started this comanpy when he could not find a hairdryer as a gift for his wife Jenny.In the begining they did not think that the comanpy would become a internaial shiping company for hairdryers. But to day they are one of the largest in the industry."
+	},
+	{
+		"name":"Jenny Tyler",
+		"title":"Human Resourse Manager",
+		"department":"Human Resourse",
+		"bio":"Not only is Jenny the wife of the CEO and helped found the company but is also the Human Resource Manager. She is responsible for the wellbeing and health of all the crew that are employed by Harrys Hairdryers. She love to run events on the weekends for all of the crew. She also run also sort of wellbeing and health care persintations for all of the departments. "
+	},
+	{
+		"name":"Phillip Brown",
+		"title":"IT Manager",
+		"department":"IT",
+		"bio":"Phillip is Jenny’s brother and has been with the company since it was founded. In the beginning he did everything that need to be done. In the beginning the company a website and Phillip learned how to make a website and learned all about computers and cording. He is now the third in charge of Harry’s. And is the IT manager. "
+	},
+	{
+		"name":"Joe Johnson",
+		"title":"Sales Manager",
+		"department":"Sales",
+		"bio":"Joe is our sales manager. He is responsible for all the sales and customer for Harry’s. This is one of the most important positions. He and his team also take care of the media and new releases. They also work with our suppliers to get better deals and help these companies improve their products. They are also responsible for dealing with any of the problems with the customer services.  "
+	},
+	{
+		"name":"Claire Blake",
+		"title":"Assistant Sales Manager",
+		"department":"Sales",
+		"bio":"In the last few years Joe’s job has grew with the company to the point where he needs help to accomplish the work. That is why we promoted Claire to Assistant Sales Manager. Her roll is to help Joe with all the items that fall on to his plate. She has been with the company for five years and started as an intern. "
+	},
+	{
+		"name":"Chloe Scott",
+		"title":"IT Co-Op",
+		"department":"IT",
+		"bio":"Chole is the newest member of our team. She came to out company through a Co-Op from the local high school. She was placed in the IT department. She has demonstrated a vary good understanding of our IT department. She is plaining to go to college for website design and management. She is planning on working for us all through college as a student. After she finishes her degree, she will have a place here."
+	},
+	{
+		"name":"Noah King",
+		"title":"Wherehouse Manager",
+		"department":"Warehouse",
+		"bio":"Noah is our warehouse manager. He started with us four years ago. He came from one of the largest warehouses in this area. But there was a problem with is boss and he was fired. We hired him on and now he oversees our whole warehouse and inventory systems. Without him our company would not be able to function as efficiently as its dose.  "
+	},
+	{
+		"name":"Charle Grey",
+		"title":"Shipment Manager",
+		"department":"Shiping",
+		"bio":"Charles has been with our company for 10 years. He started back when we first open the first warehouse and was our only warehouse employee. Later when we expanded, he became the warehouse and shipping manager but when the company grew, we split the shipping and warehouse section up to provide more time and support to each department. He is our longest employees the only people that have been longer are the founders of the company."
+	},
+	{
+		"name":"Hannah Murray",
+		"title":"Accounting Employee",
+		"department":"Accounting",
+		"bio":"Hannah Is our accountant. She is responsible for all the money that we make. Also making sure that all the employees get paid. She has worked here for the last three years. She could be considered one of the most important people. As without her none of our employees would get paid and, we would not be able to purchase any new products."
+	},
+	{
+		"name":"Anna Owens",
+		"title":"Human Resource Employee",
+		"department":"Human Resource",
+		"bio":"Anna is one of our Human Resources employees. Her job includes many parts. One part is to ensure the safety and health of our employees, both at work and at home. She also is involved with all the events and promotions that we run for out crew. She is also involved in the hiring of new employees for the company as well as the CO-OP students we hire."
+	},
+	{
+		"name":"Kyle Andrews",
+		"title":"Repair Man",
+		"department":"Mantince",
+		"bio":"Kyle is our contractor. He is on call 24/7 to make sure that our facilities are up and running. He dose every thing from electrical work to building maintenance. Our company would not be able to operate with out him. He keeps everything working and running smoothly. He also works as one of out warehouse guys when there is nothing else for him to do. "
+	},
+	{
+		"name":"Sophie Morris",
+		"title":"Sales Employee",
+		"department":"Sales",
+		"bio":"Sophie has been with our company for three years and oversees products and services. She maintains and updates all the product for the webpage. She also takes care of promotions. We run promotions for certain product each week. She takes what people say they want and all the sale for the period and creates promotion based on this information. "
+	},
+	{
+		"name":"Brad Powell",
+		"title":"Janitor",
+		"department":"Mantince",
+		"bio":"Brad has been with the company for six years and is janitor. He comes in each night after the rest of the crew goes home. He makes sure that each morning when the rest of the crew comes in is clean and tidy. While most of the crew do not know that amount of work, he doses he might be one of the most important employees we have."
+	},
+	{
+		"name":"Jessica Coleman",
+		"title":"Public Relations",
+		"department":"Human Resources",
+		"bio":"Jessica has been with the company for two years. She takes after the public’s view of our company and helps support the rest of the departments. She managers all the media for the company and all the advertisement that we have out at one time. She also helps deal with all the problems that our customer’s might have with our products or something that we have done as a company."
+	},
+	{
+		"name":"Hank Nelson",
+		"title":"Warehouse Employee",
+		"department":"Wherehouse",
+		"bio":"Hank started with us two years ago and has been a useful member of out team. His dutys include pulling orders for shiping, restocking from shipments, cleaning the wharehouse, and also any list of jobs that we need to get done. On a day to day Hank will pull around 200 orders, along with restocking and kepting the wharehouse clean."
+	}
+]}

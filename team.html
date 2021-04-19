@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Damon Wark C0785895-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	    <title> Our Team </title>
+	
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="js/nav/nav.css">
+	<link rel="stylesheet" href="css/team.css">
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/nav/clarity.js"></script>
+	<script>
+$(document).ready(function(){
+			$.getJSON("team.json", function(data) {
+				$.each(data, function() {
+					$.each(this, function(key, value) {
+						$("#team").append(
+							"Name: " + value.name + "<br>" + 
+							"Title: " + value.title + "<br>" + 
+							"Department: " + value.department + "<br>" +
+							"Bio: " + value.bio + "<br><br><br>"
+						);
+					});
+				}); 
+			});
+		});
+    </script>
+	
+
+
+</head>
+<header> 
+	<a href="index.html"><img src="images/Harry.jpg" alt="Harry The Hairdryer" width="150" height="150"></a>
+	<h1> Harry's Hair Dryers</h1>
+</header>
+<nav>
+	<button class="menu-btn">
+		<img src="menu.svg">
+	</button>
+	<ul class="nav">	
+		<li><a href="index.html"> Home </a> &nbsp; &nbsp;</li>
+		<li><a href="about.html"> About </a> &nbsp; &nbsp;</li>
+		<li><a href="team.html"> Our Team </a> &nbsp; &nbsp;</li>
+		<li><a href="specials.html"> Specials</a> &nbsp; &nbsp;</li>
+		<li><a href="search.html"> Search</a> &nbsp; &nbsp;</li>
+		<li><a href="training.html"> Training</a> &nbsp; &nbsp;</li>
+		<li><a href="contact.html"> Contact Us</a> &nbsp; &nbsp;</li>
+	</ul>
+</nav>
+
+<body>
+	<main>
+				
+		<h1> Our Story<h1>
+
+		<img src="images/CEO.jfif" alt="This is our CEO" height="200px">
+		
+		<img src="images/other.jpg" alt="Jenny's brother" height="200px">
+		
+		<article>
+			
+			<p>Our story starts with the company's CEO, Mike Tyler and his wife Jenny. Mike and Jenny started the company from 
+			their garage. When they started there was only Mike, Jenny and her brother, Phillip. With that they grew the company
+			until they had three stores and 90 employees. Together, they have been able to help many people find the hair dryer 
+			that they need. They have worked with many local hair dressers, barbers, and other customers to help them with the purchase
+			of hair dryer's that they need, at a reasonable price. They have worked extremely hard over the last 5 years to grow their
+			business into a success. The decision was made last year to go online. It has been a learning curve, mixed with many hurdles
+			to over come. The three of them are anticipating through the launch of their website, that they will be able to reach a larger
+			customer base. <br></p>
+			
+			<img src="images/Male Employee.jfif" alt="This is out sales manager">
+			
+			<img src="images/a.jfif" alt="This is our assistant Sales Manager">
+			
+			<p><br>Meet our Sales Manager, Joe, and his assistant Claire, who joined our team a year ago. They are responsible for
+			tracking and increasing sales growth. <br><br> We are pleased to announce that the weekly campaign, that was created as
+			a promotion for the website, will remain. This sale will only be available through the website and will be delivered to 
+			you directly.  We will not be running these sales in-store, as they will have their own sales. We have made this decision 
+			to help grow our website and due to COVID-19, and to encourage social distancing. and to help grow the website and to 
+			encourage people to social distance. </p>
+		</article>
+			<h1> Our Crew</h1>
+			<div id="team"></div>
+	</main>
+	<footer>
+		&copy; Copyright 2099. All Rights Reserved.<br>
+		<p>Request information:<br>
+		Damon Wark &nbsp;@ &nbsp; <a href="mailto:info@HarrysHairDryers.net">Request Infomation</a>
+	</footer>
+		
+</body>
+</html>

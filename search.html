@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Damon Wark C0785895-->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/search"></script>
+    <script src="js/nav/clarity.js"></script>
+	<link rel="stylesheet" href="js/nav/nav.css">
+
+	<script>
+	$(document).ready(function(){
+    	var searchTerm;
+    	$("#btnSearch").click(function() {
+			
+			// Set the search term
+			searchTerm = "";
+			if ($("#search").val() == "") { alert("You must enter one or more tags!"); }
+			else {
+				searchTerm = $("#search").val();
+				// Build the URL based on the search term
+				var url = "http://api.flickr.com/services/feeds/photos_public.gne?" +
+	    			  	  "format=json&jsoncallback=?&tags=" + searchTerm + "&tagmode=all";
+				$.getJSON(url, function(data){
+					var html = "";
+					$.each(data.items, function(i, item){
+						html += "<h2>" + item.title + "</h2>";	
+						html += "<img src=" + item.media.m + ">";
+					});
+					$("#photos").html(html);
+				});
+			}
+        });
+    });
+	</script>
+
+	<title>Search</title>
+    <meta charset="utf-8">
+</head>
+
+<header> 
+	<a href="index.html"><img src="images/Harry.jpg" alt="Harry The Hairdryer" width="150" height="150"></a>
+	<h1> Harry's Hair Dryers</h1>
+</header>
+
+<nav>
+	<button class="menu-btn">
+		<img src="menu.svg">
+	</button>
+	<ul class="nav">	
+		<li><a href="index.html"> Home </a> &nbsp; &nbsp;</li>
+		<li><a href="about.html"> About </a> &nbsp; &nbsp;</li>
+		<li><a href="team.html"> Our Team </a> &nbsp; &nbsp;</li>
+		<li><a href="specials.html"> Specials</a> &nbsp; &nbsp;</li>
+		<li><a href="search.html"> Search</a> &nbsp; &nbsp;</li>
+		<li><a href="training.html"> Training</a> &nbsp; &nbsp;</li>
+		<li><a href="contact.html"> Contact Us</a> &nbsp; &nbsp;</li>
+	</ul>
+</nav>
+
+<body>
+<main>
+	Search by tags: <input type="text" size="30" id="search">
+	<input type="button" value="Search" id="btnSearch">
+	
+	<h1>Flickr Results</h1>
+	<div id="photos"></div>
+</main>
+</body>
+</html>

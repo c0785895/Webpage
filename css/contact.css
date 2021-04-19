@@ -1,0 +1,35 @@
+main{
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10;
+	text-align: left;
+	width: 50em;
+}
+label {
+    width: 90px;
+	font-size: 20px;
+}
+input{
+	background: white;
+	border-style: solid;
+	border-color: red; 
+	font-size: 20px;
+	padding-left: 0;	
+}
+select{
+	background: white;
+	font-size: 20px;
+}
+textarea{
+	background: white;
+	border-style: solid;
+	border-color: red;
+	font-size: 20px;
+}
+label.error {
+	float: none;
+	
+	color: red;
+	font-size: 87.5%;
+}
