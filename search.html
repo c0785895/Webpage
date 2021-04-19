@@ -21,7 +21,7 @@
 			else {
 				searchTerm = $("#search").val();
 				// Build the URL based on the search term
-				var url = "http://api.flickr.com/services/feeds/photos_public.gne?" +
+				var url = "https://api.flickr.com/services/feeds/photos_public.gne?" +
 	    			  	  "format=json&jsoncallback=?&tags=" + searchTerm + "&tagmode=all";
 				$.getJSON(url, function(data){
 					var html = "";
